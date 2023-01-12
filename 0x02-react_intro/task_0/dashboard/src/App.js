@@ -1,5 +1,6 @@
 import './App.css';
 import Body from './components/App-body.jsx';
+import Footer from './components/App-footer.jsx';
 import Head from "./components/App-header.jsx";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Head />
       <Body />
+      <Footer />
     </div>
   );
 }

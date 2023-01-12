@@ -1,5 +1,12 @@
 .contenedor-body {
-    text-align: left;
+        width: 1170px;
+        height: 368px;
+        margin: 5px 200px 200px 5px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: white;
+        border-bottom: 3px solid red;
 }
 
 .parrafo-body-holberton {
