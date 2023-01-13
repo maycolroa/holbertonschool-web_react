@@ -1,19 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Body from "./components/App-body.jsx";
+import Footer from "./components/App-footer.jsx";
+import Head from "./components/App-header.jsx";
+import {getFullYear,getFullYear} from "../src/utils"
 
 function App() {
+  let isIndex = true;
   return (
     <div className="App">
-    <div className="App-header">
-      <img src={logo} alt="hbtn-logo" width="200" /><h1>School dashboard</h1>
+      <Head />
+      <Body />
+      <Footer />
     </div>
-    <div className="App-body">
-      <p>Login to access the full dashboard</p>
-    </div>
-    <div className="App-footer">
-      <p>Copyright 2020 - holberton School</p>
-    </div>
-  </div>
   );
 }
 

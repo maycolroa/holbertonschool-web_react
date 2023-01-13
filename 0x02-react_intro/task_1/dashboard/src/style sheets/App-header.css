@@ -1,0 +1,27 @@
+.contenedor-head {
+    width: 100%;
+    height: 368px;
+    margin: 5px 200px 200px 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    border-bottom: 3px solid red;
+}
+
+.imagen-holberton {
+    height: 200px;
+    width: auto;
+    align-items: flex-start;
+    text-decoration-line:underline;
+}
+
+.parrafo-holberton {
+    text-align: center;
+    justify-content: center;
+    color: red;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 20px;
+    font-weight: 500;
+}
