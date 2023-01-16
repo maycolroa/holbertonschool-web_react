@@ -5,7 +5,7 @@ import { getFullYear, getFooterCopy } from '../utils.js';
 function Footer () {
     return (
         <div className="contenedor-footer">
-            <p>Copyright 2019 - holberton School {getFullYear()} - {getFooterCopy(true)}</p>
+            <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
         </div>
     )
 }
