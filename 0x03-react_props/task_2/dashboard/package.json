@@ -24,7 +24,6 @@
     "image-webpack-loader": "^8.1.0",
     "inline-source-map": "^0.6.2",
     "jest": "^28.1.0",
-    "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "style-loader": "^3.3.1",
